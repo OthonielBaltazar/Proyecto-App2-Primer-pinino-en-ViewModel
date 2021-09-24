@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#8F3A84" Padding="24" CornerRadius="0">
+            <Label Text="Proyecto App2 - Primer pinino en ViewModel" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry Text="{Binding Nombre}"></Entry>
+        <Label Text="{Binding Nombre}"></Label>
+        <Label Text="{Binding SinUpdate}"></Label>
+        <Image Source="https://media.vlpt.us/images/kyungjin/post/fdd5cc22-dfdc-4091-a2fb-039ce36ce9d8/%ED%8B%B0%EB%AA%A8.png"
+               HeightRequest="300" />
+    </StackLayout>
+
+</ContentPage>
